@@ -1,0 +1,11 @@
+Source: pika-nvidia-config
+Section: admin
+Priority: optional
+Maintainer: name <email>
+Standards-Version: 4.6.1
+Build-Depends: debhelper-compat (= 13)
+Rules-Requires-Root: no
+
+Package: pika-nvidia-config
+Architecture: all
+Description: pkgdesc
