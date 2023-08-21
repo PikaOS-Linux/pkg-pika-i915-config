@@ -1,11 +1,12 @@
 Source: pika-nvidia-config
 Section: graphics
 Priority: optional
-Maintainer: ard Nakchbandi <hotrod.master@hotmail.com>
+Maintainer: Ward Nakchbandi <hotrod.master@hotmail.com>
 Standards-Version: 4.6.1
 Build-Depends: debhelper-compat (= 13)
 Rules-Requires-Root: no
 
 Package: pika-nvidia-config
+Pre-Depends: pika-baseos
 Architecture: all
 Description: PikaOS configration for NVIDIA GPUs.
