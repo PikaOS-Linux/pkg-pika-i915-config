@@ -7,6 +7,5 @@ Build-Depends: debhelper-compat (= 13)
 Rules-Requires-Root: no
 
 Package: pika-nvidia-config
-Pre-Depends: pika-baseos
 Architecture: all
 Description: PikaOS configration for NVIDIA GPUs.
