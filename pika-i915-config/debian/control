@@ -1,4 +1,4 @@
-Source: pika-nvidia-config
+Source: pika-i915-config
 Section: graphics
 Priority: optional
 Maintainer: Ward Nakchbandi <hotrod.master@hotmail.com>
@@ -6,6 +6,7 @@ Standards-Version: 4.6.1
 Build-Depends: debhelper-compat (= 13)
 Rules-Requires-Root: no
 
-Package: pika-nvidia-config
+Package: pika-i915-config
 Architecture: all
-Description: PikaOS configration for NVIDIA GPUs.
+Provides: intel-i915-dkms (= ${binary:Version})
+Description: PikaOS configration for Intel GPUs.
